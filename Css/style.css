@@ -1,0 +1,242 @@
+#Background {
+    background-color: rgb(17, 16, 16);
+}
+
+/* Quadrados */
+.quadrado1 {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 65px;
+    width: 1100px;
+    margin-left: 8%;
+}
+
+.quadrado2,.quadrado3 {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 1100px;
+    margin-left: 8%;
+
+}
+
+.quadrado4{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 45px;
+    height: 170px;
+    width: 1100px;
+    margin-left: 8%;
+}
+/* Fim-Quadrados */
+
+/* Container */
+.container,.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container4{
+    font-family: monospace;
+    margin-top: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+/* Fim-Container */
+
+/* Titulo/Intros */
+#Titulos {
+    color: aliceblue;
+    font-size: 70px;
+    margin: 0;
+    font-family: monospace;
+    margin-left: 50px;
+}
+
+#Titulos2 {
+    color: aliceblue;
+    font-size: 40px;
+    margin: 0;
+    font-family: monospace;
+
+}
+
+.intro {
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0;
+    font-family: monospace;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.intro2,.intro3{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0;
+    font-family: monospace;
+    margin-top: 5px;
+}
+/* Fim-Titulo/Intros */
+
+/* Cabeçalho */
+.QuadradoCima {
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    width: 98.7%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    border-radius: 10px;
+    width: 1100px;
+    margin-left: 8%;
+}
+/* Fim-Cabeçalho */
+
+/* Meios de Contato */
+.contateme{
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+    
+}
+
+.contato{
+    color: rgb(255, 240, 240);
+    background-color: red;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    width: 250px;
+    font-size: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.meios-contato{
+    margin-top: 0px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.meios-contato2{
+    margin-top: 0px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: monospace;
+   margin-left: 0px;
+}
+
+.Gith-Insta{
+    margin-left:960px;
+    margin-top: 0px;
+}
+/* Fim-Meios de Contato */
+
+/* Sobre Mim */
+.Photo-Profile {
+    width: 430px;
+    height: 550px;
+}
+
+a {
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0;
+    font-family: monospace;
+    margin-right: 30px;
+}
+
+.img {
+    margin-top: 5px;
+    margin-right: 70px;
+}
+
+.Sobremim {
+    color: aliceblue;
+    font-family: monospace;
+    margin-left: 50px;
+}
+
+.Logo {
+    margin-top: 10px;
+}
+
+#text-profile {
+    font-family: monospace;
+    color: aliceblue;
+    font-size: 19px;
+    margin-right: 100px;
+    text-align: justify;
+}
+/* Fim-Sobre Mim */
+
+/* Abilidades */
+.Skills {
+    color: aliceblue;
+}
+
+.html,.Css,.Python,.MySql,.Github {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+
+.icon-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-skills-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-skills-item i {
+    font-size: 60px;
+}
+
+.icon-skills-item p {
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0;
+}
+
+.Skills {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icon-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+/* Fim-Abilidades */
