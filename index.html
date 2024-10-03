@@ -5,17 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/db29c2ca45.js" crossorigin="anonymous"></script>
 </head>
+
+
+
 
 <body id="Background">
     <div class="QuadradoCima">
         <div class="Logo">
-            <a href="#Titulos">Home</a>
-            <a href="#Sobre">Sobre</a>
-            <a href="#Skil">Skills</a>
-            <a href="#Contato">Contato</a>
+            <div class="hotbar-mobal">
+                <i class="fa-solid fa-bars"
+                    style="color: #ffffff; font-size: 30px; margin-right: 0; margin-left: 30px; margin-right: 10px;"></i>
+            </div>
+            <a class="cabeçalho" href="#Titulos">Home</a>
+            <a class="cabeçalho" href="#Sobre">Sobre</a>
+            <a class="cabeçalho" href="#Skil">Skills</a>
+            <a class="cabeçalho" href="#Contato">Contato</a>
         </div>
     </div>
 
@@ -26,45 +33,53 @@
                 <h1 id="Titulos"><strong>Desenvolvedor<br>Junior</strong></h1>
                 <div class="contateme">
                     <button class="contato" onclick="location.href='#Contato'">Contate me</button>
-                </div> 
+                    <div class="Gith-Insta2">
+                        <a class="fa-brands fa-instagram"
+                            style="margin-left: 0.2vw; margin-right: 0%;color: #b10076; font-size: 30px; margin-top: 1vw;"
+                            href="https://www.instagram.com/anntoniovic/" target="_blank"></a>
+
+                        <a style="margin-left:1%" href="https://github.com/AntonioV1ctor" target="_blank">
+                            <i class="fa-brands fa-github" style="color: #615164c0;font-size: 30px;"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div class="img">
-                <img class="Photo-Profile" src="image-profile.png" alt="Foto-de-Perfil">            </div>
-        </div>
-    </div>
-    <article>
-        <div class="quadrado2">
-            <div class="container2">
-                <div class="Sobremim">
-                    <p class="intro2" id="Sobre">Sobre Mim</p><br>
-                    <h1 id="Titulos2">Desenvolvedor Junior</h1>
-                    <p id="text-profile">
-                        Lorem ipsum dolor sit amet. Sit itaque dolor nam exercitationem perferendis et delectus odio est
-                        cupiditate illum est fugiat quia est harum aperiam. Id autem similique ea iure asperiores aut
-                        consequatur excepturi ab iusto doloribus. Hic internos odit et aliquid libero vel veritatis
-                        minima ea sequi perferendis. Vel quos ipsum sed nobis magnam sed ducimus quaerat qui consequatur
-                        atque non voluptas rerum et illo repellendus.
-                        Non asperiores laborum id veritatis eaque non galisum ipsum est odit illo eos dolorem dolorem et
-                        molestiae placeat. Et laudantium fugit et enim voluptatem eum dolore distinctio et quaerat
-                        doloremque et recusandae vitae et dolores voluptatibus non nemo iste. Qui dolor dignissimos ex
-                        nulla iste et minus sint et error sunt 33 ipsam reiciendis a maiores laudantium aut illum
-                        voluptatem. Quo quam exercitationem et nihil consequatur et animi officiis non earum nihil quo
-                        doloremque libero id numquam doloribus hic galisum asperiores.
-                        Quo ratione vero ab consequatur natus et omnis veniam. At similique repellat At autem eaque qui
-                        temporibus nihil.
-                    </p>
-                </div>
+                <img class="Photo-Profile" src="style/image-profile.png" alt="Foto-de-Perfil">
             </div>
         </div>
-    </article>
+    </div>
+    <div class="quadrado2">
+        <div class="container2">
+            <div class="Sobremim">
+                <p class="intro2" id="Sobre">Sobre Mim</p><br>
+                <h1 id="Titulos2">Desenvolvedor Junior</h1>
+                <p id="text-profile">
+                    Lorem ipsum dolor sit amet. Sit itaque dolor nam exercitationem perferendis et delectus odio est
+                    cupiditate illum est fugiat quia est harum aperiam. Id autem similique ea iure asperiores aut
+                    consequatur excepturi ab iusto doloribus. Hic internos odit et aliquid libero vel veritatis
+                    minima ea sequi perferendis. Vel quos ipsum sed nobis magnam sed ducimus quaerat qui consequatur
+                    atque non voluptas rerum et illo repellendus.
+                    Non asperiores laborum id veritatis eaque non galisum ipsum est odit illo eos dolorem dolorem et
+                    molestiae placeat. Et laudantium fugit et enim voluptatem eum dolore distinctio et quaerat
+                    doloremque et recusandae vitae et dolores voluptatibus non nemo iste. Qui dolor dignissimos ex
+                    nulla iste et minus sint et error sunt 33 ipsam reiciendis a maiores laudantium aut illum
+                    voluptatem. Quo quam exercitationem et nihil consequatur et animi officiis non earum nihil quo
+                    doloremque libero id numquam doloribus hic galisum asperiores.
+                    Quo ratione vero ab consequatur natus et omnis veniam. At similique repellat At autem eaque qui
+                    temporibus nihil.
+                </p>
+            </div>
+        </div>
+    </div>
 
     <div class="quadrado3">
         <div class="container3">
             <div class="Skills" id="Skil">
                 <p class="intro3">Skills</p>
                 <div class="icon-skills-container">
-                    <div class="icon-skills-item">
+                    <div class="icon-skills-item" style="margin-left: 3vw;">
                         <i class="fa-brands fa-html5" style="color: #ff8800;"></i>
                         <p>HTML</p>
                     </div>
@@ -91,7 +106,7 @@
 
     <div class="quadrado4">
         <div class="container4">
-            <p class="container4" id="Contato">Contato</p>
+            <p class="container4" style="margin-left: 3vw;" id="Contato">Contato</p>
         </div>
         <div>
             <i class="fa-solid fa-envelope"
@@ -108,7 +123,8 @@
             <a class="fa-brands fa-instagram"
                 style="margin-left: 50px; margin-right: 0%;color: #b10076; font-size: 30px;"
                 href="https://www.instagram.com/anntoniovic/" target="_blank"></a>
-            <a style="margin-left:0%" href="https://github.com/AntonioV1ctor" target="_blank">
+
+            <a style="margin-left:0.5%" href="https://github.com/AntonioV1ctor" target="_blank">
                 <i class="fa-brands fa-github" style="color: #615164c0;font-size: 30px;"></i>
             </a>
         </div>
@@ -119,4 +135,5 @@
 
     </div>
 </body>
+
 </html>

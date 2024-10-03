@@ -1,0 +1,343 @@
+
+
+#Background {
+    background-color: rgb(17, 16, 16);
+}
+
+/* Quadrados */
+.quadrado1 {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 65px;
+    width: 80%;
+    margin-left: 10%;
+    flex: 1;
+}
+
+.quadrado2,
+.quadrado3 {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 10%;
+    flex: 1;
+}
+
+.quadrado4 {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 45px;
+    height: 170px;
+    width: 80%;
+    margin-left: 10%;
+    flex: 1;
+}
+
+/* Fim-Quadrados */
+
+/* Container */
+.container,
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container4 {
+    font-family: monospace;
+    margin-top: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/* Fim-Container */
+
+/* Titulo/Intros */
+#Titulos {
+    color: aliceblue;
+    font-size: 4vw;
+    margin: 0;
+    font-family: monospace;
+    margin-left: 50px;
+     
+}
+
+.hotbar-mobal{
+    display: none;
+}
+
+#Titulos2 {
+    color: aliceblue;
+    font-size: 40px;
+    margin: 0;
+    font-family: monospace;
+
+}
+
+.intro {
+    color: aliceblue;
+    font-size: 2.1vw;
+    margin: 0;
+    font-family: monospace;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.intro2,
+.intro3 {
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0;
+    font-family: monospace;
+    margin-top: 5px;
+}
+
+/* Fim-Titulo/Intros */
+
+/* Cabeçalho */
+.QuadradoCima {
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    right: 10px;
+    width: 99.7%;
+    height: 8%;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    border-radius: 10px;
+    width: 79.3%;
+    margin-left: 9.9%;
+}
+
+/* Fim-Cabeçalho */
+
+/* Meios de Contato */
+.contateme {
+    margin-top: 2vw;
+    margin-left: 4vw;
+
+
+}
+
+.contato {
+    color: rgb(255, 240, 240);
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    width: 39%;
+    height: 4vw;
+    font-size: 2vw;
+    border-radius: 3vw;
+    cursor: pointer;
+    margin: auto;
+}
+
+.meios-contato,
+.meios-contato2 {
+    color: aliceblue;
+    font-size: 2vw;
+    font-family: monospace;
+}
+
+
+.Gith-Insta {
+    margin-left: 0vw;
+
+}
+
+/* Fim-Meios de Contato */
+
+/* Sobre Mim */
+.Photo-Profile {
+    width: 100%;
+    height: auto;
+    max-width: 430px;
+    max-height: 550px;
+}
+
+a,
+p {
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0;
+    font-family: monospace;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.img {
+    margin-top: 5px;
+    margin-right: 70px;
+}
+
+.Sobremim {
+    color: aliceblue;
+    font-family: monospace;
+    margin-left: 50px;
+}
+
+.Logo {
+    margin-top: 10px;
+}
+
+#text-profile {
+    font-family: monospace;
+    color: aliceblue;
+    font-size: 19px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+/* Fim-Sobre Mim */
+
+/* Abilidades */
+.Skills {
+    color: aliceblue;
+}
+
+.html,
+.Css,
+.Python,
+.MySql,
+.Github {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+
+.icon-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-skills-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-skills-item i {
+    font-size: 60px;
+}
+
+.icon-skills-item p {
+    font-size: 24px;
+    color: aliceblue;
+    margin: 0;
+}
+
+.Skills {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icon-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Fim-Abilidades */
+@media (max-width: 768px) {
+    .quadrado1 {
+        width: 86vw;
+        margin-left: 5%;
+        margin-top: 25vw;
+    }
+
+    .quadrado2,
+    .quadrado3,
+    .quadrado4 {
+        width: 86vw;
+        margin-left: 5%;
+    }
+
+    #Titulos {
+        font-size: 9.5vw;
+        margin-left: 11vw;
+    }
+
+    .intro {
+        margin-top: 3vw;
+        font-size: 4.5vw;
+        margin-left: 11vw;
+    }
+
+    .contateme {
+        margin-left: 11vw;
+        
+    }
+
+    .contato {
+        margin-top: 3vw;
+        font-size: 5vw;
+        height: 11vw;
+        width: 40vw;
+        border-radius: 5vw;
+    }
+
+    .Photo-Profile {
+        display: none;
+    }
+
+    #Titulos2 {
+        font-size: 9vw;
+    }
+
+    .QuadradoCima {
+        margin-left: 4.8vw;
+        width: 85.5%;
+        height: 15vw;
+
+    }
+
+    .cabeçalho {
+        font-size: 6vw;
+        margin-right: 1.8vw;
+        margin-left: 0.1%;
+        display: none;
+    }
+
+    .meios-contato,
+    .meios-contato2 {
+        margin-top: 0vw;
+        font-size: 103.1%;
+    }
+
+    #text-profile {
+        margin-left: 0vw;
+        margin-right: 11vw;
+    }
+
+    .hotbar-mobal{
+        display: contents;
+    }
+
+    .container4{
+        margin-left: 5vw;
+    }
+    .Gith-Insta2{
+        margin-top: 4vw;
+    }
+}
